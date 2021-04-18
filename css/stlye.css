@@ -656,6 +656,7 @@ html {
 .portofolio .contact-porto .card {
   display: flex;
   flex-direction: column;
+  max-width: 360px;
 }
 @media (max-width: 991px) {
   .portofolio .contact-porto .card:last-child {
