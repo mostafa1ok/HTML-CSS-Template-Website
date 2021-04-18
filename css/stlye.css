@@ -666,8 +666,8 @@ html {
 }
 
 .portofolio .contact-porto .card img {
-  width: 360px;
-  height: 240px;
+  max-width: 360px;
+  max-height: 240px;
 }
 
 .portofolio .contact-porto .card .info {
