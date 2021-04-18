@@ -655,20 +655,21 @@ html {
 }
 .portofolio .contact-porto .card {
   display: flex;
-  flex-direction: column;
-  max-width: 360px;
-  
+  flex-direction: column; 
 }
 @media (max-width: 991px) {
   .portofolio .contact-porto .card:last-child {
     grid-column: 1/-1;
   }
 }
+@media (max-width: 991px) and (min-width: 667px) {
+  .portofolio .contact-porto .card:last-child {
+    padding: 0 160px;
+  }
+}
 
 .portofolio .contact-porto .card img {
-  max-width: 360px;
   max-height: 240px;
-  
 }
 
 .portofolio .contact-porto .card .info {
@@ -855,6 +856,11 @@ footer .end {
 }
 footer .footer-end {
   flex-grow: 1;
+}
+@media (max-width: 413px) {
+  footer .footer-end {
+    font-size: 10px;
+  }
 }
 footer .head-logo2 {
   flex-basis: 110px;
