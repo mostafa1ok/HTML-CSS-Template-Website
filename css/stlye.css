@@ -483,7 +483,6 @@ html {
   -ms-transform: translateX(150%);
   -o-transform: translateX(150%);
 }
-s
 @media (max-width: 767px) {
   .showcase {
     height: calc(100vh - 65px);
